@@ -31,7 +31,7 @@ services:
       default:
       reaction:
     ports:
-      - "27017:27017"
+      - "27018:27018"
     volumes:
       - mongo-db4:/data/db
 
